@@ -1,0 +1,56 @@
+.container {
+  max-width: 600px;
+  min-width: 400px;
+  margin: auto;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 90vw;
+    min-width: 300px;
+  }
+}
+
+.timestamp {
+  text-align: end;
+}
+
+.sake-title-box {
+  position: relative;
+}
+.sake-title-box button {
+  position: absolute;
+  width: 5em;
+  right: 0;
+  top: 0;
+}
+
+.log-contents {
+  position: relative;
+}
+
+.log-contents textarea {
+  width: 100%;
+  min-height: 200px;
+  margin: 0;
+  border: 1px solid #ccc;
+}
+
+.log-contents button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 4em;
+  padding: 6px;
+  border-radius: 0 0 0 8px;
+  background: white;
+  color: #444;
+  border: 1px solid #ccc;
+}
+
+button.done::after {
+  content: "\2714";
+}
+
+[v-cloak] {
+  display: none;
+}
