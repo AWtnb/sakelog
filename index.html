@@ -23,7 +23,7 @@
                 <label>名前</label>
                 <div class="sake-title-box">
                     <input type="text" v-model="sakeName">
-                    <button @click="copyTitle" :class="{done:titleCopied}">COPY</button>
+                    <button @click="copyTitle" :class="{done:titleCopied}" class="outline">COPY</button>
                 </div>
             </div>
             <label>どこのお酒？<input type="text" v-model="sakePlace"></label>
@@ -33,7 +33,7 @@
 
             <div class="log-contents">
                 <textarea readonly tabindex="-1" v-model="contents"></textarea>
-                <button @click="copyContents" :class="{done:contentsCopied}">Copy</button>
+                <button @click="copyContents" :class="{done:contentsCopied}">COPY</button>
             </div>
         </div>
     </div>

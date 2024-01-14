@@ -14,36 +14,14 @@
   text-align: end;
 }
 
-.sake-title-box {
-  position: relative;
-}
-.sake-title-box button {
-  position: absolute;
-  width: 6em;
-  right: 0;
-  top: 0;
-}
-
-.log-contents {
-  position: relative;
+.sake-title-box input {
+  margin-bottom: 4px;
 }
 
 .log-contents textarea {
   width: 100%;
   min-height: 200px;
-  margin: 0;
-  border: 1px solid #ccc;
-}
-
-.log-contents button {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 6em;
-  padding: 6px;
-  border-radius: 0 0 0 8px;
-  background: white;
-  color: #444;
+  margin-bottom: 4px;
   border: 1px solid #ccc;
 }
 
